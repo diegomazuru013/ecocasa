@@ -1,0 +1,21 @@
+<!-- Creare una pagina che restituisca i dati dell'utente -->
+ <!DOCTYPE html>
+<html>  
+    <head> 
+        <title>grazie </title>
+       
+    </head>
+    <body>
+    {% block content %}  
+        <h1>i nostri specialist arriveranno</h1>
+        <h2>i dati da te inseriti sono</h2>
+        <ul>
+            <li>il tuo nome :{{name}}</li>
+            <li>il tuo email :{{email}}</li>
+            <li>il tuo indirizzo :{{pippo}}</li>
+            <li>il tuo data :{{data}}</li>
+           
+        </ul>
+    {% endblock %}
+    </body>
+</html>
